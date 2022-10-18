@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+tbar {
+    position: fixed;
+    width: 100%;
+    height: 24.6vh;
+    display: block;
+    background-color: rgb(19, 41, 75);
+    white-space: nowrap;
+}
+
+tword {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    font-size: 4vh;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+img.timg {
+    width: 2.347vh;
+    height: 4vh;
+}
+
+tblank {
+    width: 100%;
+}
+
+tblank.fixed {
+    position: fixed;
+}
+
+tblank.relative {
+    position: relative;
+}
+
+tblank.wline {
+    position: fixed;
+    height: 0.3vh;
+    background-color: white;
+}
+
+tblank.pad {
+    margin-top: 0.6vh;
+}
+
+tlist {
+    position: fixed;
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+tmenu {
+    width: 8%;
+    height: 3.4vh;
+    font-size: 2.58vh;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(19, 41, 75);
+    color: white;
+    font-weight: 400;
+}
+
+tmenu:hover {
+    border-radius: 3px;
+    background-color: rgb(241, 87, 53);
+    border: 2.1px solid rgb(241, 87, 53);
+    font-weight: 600;
+    width: 8.1%;
+    height: 3.42vh;
+    font-size: 2.73vh;
+    cursor: pointer;
+}
+
+tdhead {
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+}
+
+tdhe {
+    display: table-cell;
+    color: white;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    margin-top: auto;
+    text-align: center;
+}
+
+tdbody {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    height: 75vh;
+    margin-top: 25vh;
+    display: block;
+    white-space: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+tdbl {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+
+form.tdbl {
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+
+tblank.bline {
+    display: flex;
+    height: 0.3vh;
+    background-color: black;
+}
+
+tdbe {
+    position: relative;
+    display: table-cell;
+    color: black;
+    font-size: 2.8vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+input.tdbe {
+    border-style: hidden;
+    position: relative;
+    display: table-cell;
+    color: black;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 2vh;
+    height: 5vh;
+}
+
+input[type=text].tdbe:focus {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom: 1px solid rgb(19, 41, 75);
+    outline: blue;
+}
+
+input[type=button].tdbe:hover {
+    border-radius: 10px;
+    color: white;
+    cursor:pointer;
+}
+
+input[type=button].tdbe {
+    margin-left:1vh;
+    margin-right:1vh;
+}
+
+input[type=button].ok:hover {
+    background-color: rgb(241, 87, 53);
+}
+input[type=button].nok:hover {
+    background-color: rgb(19, 41, 75);
+}
+
+alertbox {
+    position: absolute;
+}
