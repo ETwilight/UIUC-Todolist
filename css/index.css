@@ -144,6 +144,32 @@ tdbe {
     margin-top: 3vh;
 }
 
+tdbe.alert-1 {
+    color: #24b93c;
+    font-weight: 400;
+}
+
+tdbe.alert-2 {
+    color: #84d722;
+    font-weight: 500;
+}
+
+tdbe.alert-3 {
+    color: #a8c40d;
+    font-weight: 600;
+}
+
+tdbe.alert-4 {
+    color: #b68b09;
+    font-weight: 700;
+}
+
+tdbe.alert-5 {
+    color: #9e4701;
+    font-weight: 800;
+    font-size: large;
+}
+
 input.tdbe {
     border-style: hidden;
     position: relative;
